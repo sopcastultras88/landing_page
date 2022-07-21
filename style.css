@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto';
+}
+
 .header {
     background-color: #1F2937;
     padding: 0 200px;
@@ -113,19 +117,42 @@ button {
 .call-to {
     display: flex;
     justify-content: center;
+    padding: 100px 200px;
 }
 
 .call-to-items {
+    border-radius: 8px;
     background-color: #3882F6;
-    border-radius: 4px;
-    margin: 0 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 100px;
+}
+
+.call-text {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call-subtext {
+    color: #F9FAF8;
+    font-size: 12px;
 }
 
 .sign-up {
-    background-color: #F9FAF8;
-    color: #3882F6;
-    border: 0px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
     width: 100px;
     height: 35px;
-    border-radius: 8px;
+    border-radius: 8px;    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
 }
